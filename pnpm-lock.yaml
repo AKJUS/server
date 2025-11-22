@@ -4896,8 +4896,8 @@ packages:
   promise-breaker@6.0.0:
     resolution: {integrity: sha512-BthzO9yTPswGf7etOBiHCVuugs2N01/Q/94dIPls48z2zCmrnDptUUZzfIb+41xq0MnYZ/BzmOd6ikDR4ibNZA==}
 
-  promise-coalesce@1.1.2:
-    resolution: {integrity: sha512-zLaJ9b8hnC564fnJH6NFSOGZYYdzrAJn2JUUIwzoQb32fG2QAakpDNM+CZo1km6keXkRXRM+hml1BFAPVnPkxg==}
+  promise-coalesce@1.5.0:
+    resolution: {integrity: sha512-cTJ30U+ur1LD7pMPyQxiKIwxjtAjLsyU7ivRhVWZrX9BNIXtf78pc37vSMc8Vikx7DVzEKNk2SEJ5KWUpSG2ig==}
     engines: {node: '>=16'}
 
   promise@7.3.1:
@@ -5914,8 +5914,8 @@ packages:
     resolution: {integrity: sha512-kiGUalWN+rgBJ/1OHZsBtU4rXZOfj/7rKQxULKlIzwzQSvMJUUNgPwJEEh7gU6xEVxC0ahoOBvN2YI8GH6FNgA==}
     engines: {node: '>=10.12.0'}
 
-  validator@13.15.15:
-    resolution: {integrity: sha512-BgWVbCI72aIQy937xbawcs+hrVaN/CZ2UwutgaJ36hGqRrLNM+f5LUT/YPRbo8IV/ASeFzXszezV+y2+rq3l8A==}
+  validator@13.15.23:
+    resolution: {integrity: sha512-4yoz1kEWqUjzi5zsPbAS/903QXSYp0UOtHsPpp7p9rHAw/W+dkInskAE386Fat3oKRROwO98d9ZB0G4cObgUyw==}
     engines: {node: '>= 0.10'}
 
   value-or-promise@1.0.12:
@@ -8701,7 +8701,7 @@ snapshots:
       eventemitter3: 5.0.1
       lodash.clonedeep: 4.5.0
       lru-cache: 10.4.3
-      promise-coalesce: 1.1.2
+      promise-coalesce: 1.5.0
 
   call-bind-apply-helpers@1.0.2:
     dependencies:
@@ -8841,7 +8841,7 @@ snapshots:
     dependencies:
       '@types/validator': 13.15.3
       libphonenumber-js: 1.12.22
-      validator: 13.15.15
+      validator: 13.15.23
 
   cli-cursor@3.1.0:
     dependencies:
@@ -11590,7 +11590,7 @@ snapshots:
 
   promise-breaker@6.0.0: {}
 
-  promise-coalesce@1.1.2: {}
+  promise-coalesce@1.5.0: {}
 
   promise@7.3.1:
     dependencies:
@@ -12662,7 +12662,7 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
-  validator@13.15.15: {}
+  validator@13.15.23: {}
 
   value-or-promise@1.0.12: {}
 
